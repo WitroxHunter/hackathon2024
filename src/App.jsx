@@ -6,7 +6,11 @@ import "./App.css";
 function App() {
   return (
     <>
-      <div id="main">abc</div>
+      <div id="main">
+        <div id="phoneTop"></div>
+        <div id="phoneContent">abc</div>
+        <div id="phoneBottom"></div>
+      </div>
     </>
   );
 }
