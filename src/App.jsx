@@ -37,7 +37,7 @@ function App() {
         <div id="phoneContent" class="scrollable-div">
           <div id="phoneContentTopBar">
             <h2 className="dzisuzywalesfona">Korzystałeś dziś z telefonu </h2>
-            <h1 className="godzinyDuze">6h i 32min</h1>
+            <h1 className="godzinyDuze">9h i 16min</h1>
             <img src={hourglass} className="hourglassImage"></img>
           </div>
           <div id="phoneContentAppsBar">
