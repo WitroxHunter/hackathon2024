@@ -59,6 +59,62 @@
   margin-top: 40px;
 }
 
+#phoneContentAppsBar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.AppTime {
+  display: flex;
+  flex-direction: row;
+
+  width: 98%;
+}
+
+.appIcon {
+  width: 40px;
+}
+
+.AppTimeLeft,
+.AppTimeRight {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.AppTimeMiddleTop {
+  width: 100%;
+  text-align: left;
+}
+
+.AppTimeMiddleBottom {
+  background-color: #333333;
+  border-radius: 20px;
+  margin-top: 6px;
+  height: 10px;
+  width: 99%;
+}
+
+.timeBar {
+  background-color: #18d986;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.AppTimeLeft {
+  width: 15%;
+}
+.AppTimeMiddle {
+  width: 62%;
+  padding: 0 5px 0 5px;
+}
+.AppTimeRight {
+  width: 21%;
+  padding-top: 21px;
+}
+
 .hourglassImage {
   width: 100px;
   margin-top: -20px;
