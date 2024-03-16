@@ -55,8 +55,20 @@
   overflow-y: scroll;
 }
 
+#phoneContentTopBar {
+  margin-top: 40px;
+}
+
+.hourglassImage {
+  width: 100px;
+  margin-top: -20px;
+}
+
 .dzisuzywalesfona {
+  font-size: 23px;
 }
 
 .godzinyDuze {
+  margin-top: -20px;
+  font-size: 3rem;
 }
