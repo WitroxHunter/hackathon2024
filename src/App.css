@@ -132,9 +132,13 @@
   font-size: 23px;
 }
 
+.wybieracz {
+  width: 50%;
+}
+
 .godzinyDuze {
   margin-top: -20px;
-  font-size: 3rem;
+  font-size: 40px;
 }
 
 .AplikacjeHeader {

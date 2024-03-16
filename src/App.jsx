@@ -8,6 +8,7 @@ import tiktok from "./assets/tiktok.png";
 import instagram from "./assets/instagram.png";
 import youtube from "./assets/Youtube.png";
 import wykres from "./assets/wykres.png";
+import wybieracz from "./assets/wybieracz.png";
 import "./App.css";
 
 const AppTimeUsed = (props) => {
@@ -41,6 +42,7 @@ function App() {
             <img src={hourglass} className="hourglassImage"></img>
           </div>
           <div id="phoneContentAppsBar">
+            <img className="wybieracz" src={wybieracz}></img>
             <div className="AppTime">
               <h2 className="AplikacjeHeader">Aplikacje</h2>
             </div>
