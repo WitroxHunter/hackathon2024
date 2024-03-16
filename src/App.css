@@ -138,7 +138,19 @@
 
 .godzinyDuze {
   margin-top: -20px;
+  margin-bottom: -5px;
   font-size: 40px;
+}
+.limit {
+  font-size: 17px;
+  opacity: 33%;
+}
+.streak {
+  border-radius: 15px;
+  background-color: #333333;
+  width: 80%;
+  height: 100px;
+  margin: auto;
 }
 
 .AplikacjeHeader {

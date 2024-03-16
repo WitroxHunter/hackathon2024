@@ -9,6 +9,7 @@ import instagram from "./assets/instagram.png";
 import youtube from "./assets/Youtube.png";
 import wykres from "./assets/wykres.png";
 import wybieracz from "./assets/wybieracz.png";
+import streak from "./assets/Streak.png";
 import "./App.css";
 
 const AppTimeUsed = (props) => {
@@ -38,8 +39,11 @@ function App() {
         <div id="phoneContent" class="scrollable-div">
           <div id="phoneContentTopBar">
             <h2 className="dzisuzywalesfona">Korzystałeś dziś z telefonu </h2>
-            <h1 className="godzinyDuze">9h i 16min</h1>
-            <img src={hourglass} className="hourglassImage"></img>
+            <h1 className="godzinyDuze">6h i 16min</h1>
+            <span className="limit">Ustawiony limit dzienny 7h 30 min</span>
+            <div className="streak">
+              <img src={streak} width="50px" height="60px"/>
+            </div>
           </div>
           <div id="phoneContentAppsBar">
             <img className="wybieracz" src={wybieracz}></img>
