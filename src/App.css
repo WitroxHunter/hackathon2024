@@ -70,7 +70,14 @@
   display: flex;
   flex-direction: row;
   width: 98%;
-  padding-bottom: 10px;
+  padding-bottom: 11px;
+}
+
+.WykresBox {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 10px 0 10px 0;
 }
 
 .appIcon {
@@ -134,4 +141,8 @@
   margin-left: 5px;
   font-size: 22px;
   line-height: 5px;
+}
+
+#wykres {
+  width: 90%;
 }

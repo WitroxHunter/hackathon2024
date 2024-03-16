@@ -7,6 +7,7 @@ import clashroyale from "./assets/clashroyale.png";
 import tiktok from "./assets/tiktok.png";
 import instagram from "./assets/instagram.png";
 import youtube from "./assets/Youtube.png";
+import wykres from "./assets/wykres.png";
 import "./App.css";
 
 const AppTimeUsed = (props) => {
@@ -75,7 +76,12 @@ function App() {
               timeUsed="21min"
             />
           </div>
+          <div className="WykresBox">
+            <h2 className="AplikacjeHeader">Podsumowanie</h2>
+          </div>
+          <img src={wykres} id="wykres"></img>
         </div>
+
         <div id="phoneBottom"></div>
       </div>
     </>
