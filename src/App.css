@@ -69,8 +69,8 @@
 .AppTime {
   display: flex;
   flex-direction: row;
-
   width: 98%;
+  padding-bottom: 10px;
 }
 
 .appIcon {
@@ -113,6 +113,7 @@
 .AppTimeRight {
   width: 21%;
   padding-top: 21px;
+  justify-content: left;
 }
 
 .hourglassImage {
@@ -127,4 +128,10 @@
 .godzinyDuze {
   margin-top: -20px;
   font-size: 3rem;
+}
+
+.AplikacjeHeader {
+  margin-left: 5px;
+  font-size: 22px;
+  line-height: 5px;
 }
